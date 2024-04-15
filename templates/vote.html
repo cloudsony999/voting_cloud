@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+</head>
+<body bgcolor="cornsilk" text="black">
+
+    <h2>
+
+        Hello {{ name }}!!!
+
+        {% if age>18   %}
+        Congrats!!! {{name}} is eligible to vote...
+        {% else %}
+        Sorry!!! {{name}} is unable to vote this year!!!
+        {% endif  %}
+
+    </h2>
+    
+</body>
+</html>
